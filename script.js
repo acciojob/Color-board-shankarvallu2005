@@ -13,7 +13,7 @@ for(let i =0; i<800; i++){
 	div.addEventListener("mouseout", (e)=>{
 	    setTimeout(()=>{
 	    e.target.style.backgroundColor = `rgb(10, 10, 10)`;
-	    },500)
+	    },1000)
 	})
 	fragment.appendChild(div)
 }
