@@ -11,7 +11,7 @@ for(let i =0; i<800; i++){
 	    e.target.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`
 	})
 	div.addEventListener("mouseout", (e)=>{
-	    setInterval(()=>{
+	    setTimeout(()=>{
 	    e.target.style.backgroundColor = `rgb(10, 10, 10)`;
 	    },500)
 	})
